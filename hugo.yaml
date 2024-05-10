@@ -1,0 +1,49 @@
+baseURL: 'https://rabbyte.xyz'
+languageCode: 'zh-CN'
+title: 'Rabbyte House'
+theme: 'hugo-theme-stack'
+
+params:
+    favicon: favicon.ico
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+
+    sidebar:
+        emoji: 🍥
+        subtitle: '在注定到来的美好明天前，找到的今天，我无比珍惜'
+        avatar:
+            enabled: true
+            local: true
+            src: miyu.jpg
+    
+    article:
+        math: true
+        toc: true
+        readingTime: true
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
+
+    widgets:
+        homepage:
+            - type: search
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+
+menu:
+    main: []
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/0xrabbyte
+          params:
+              icon: brand-github
