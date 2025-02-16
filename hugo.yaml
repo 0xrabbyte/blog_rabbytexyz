@@ -1,7 +1,9 @@
 baseURL: 'https://rabbyte.xyz'
-languageCode: 'zh-CN'
+languageCode: 'zh-cn'
 title: 'Rabbyte House'
 theme: 'hugo-theme-stack'
+DefaultContentLanguage: 'zh-cn'
+hasCJKLanguage: true
 
 params:
     favicon: favicon.ico
@@ -47,3 +49,8 @@ menu:
           url: https://github.com/0xrabbyte
           params:
               icon: brand-github
+        - identifier: zhihu
+          name: Zhihu
+          url: https://www.zhihu.com/people/zhang-hao-9-4-83
+          params:
+              icon: brand-zhihu
